@@ -1,0 +1,4 @@
+This is Python script for graph network traffic in Zabbix from Quagga interfeces.
+
+Requires Zabbix API in Python:
+    https://github.com/gescheit/scripts/tree/master/zabbix
