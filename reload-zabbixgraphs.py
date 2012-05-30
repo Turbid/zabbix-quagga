@@ -34,8 +34,8 @@ def read_zebra_conf(zebra_conf):
                     vlan = iface_m.group(1)
                     desc = desc_m.group(1)
                     ifaces[vlan] = desc
-        return ifaces
         f.close()
+    return ifaces
 
 def add_item(host_id, vlan, oid_id):
     try:
